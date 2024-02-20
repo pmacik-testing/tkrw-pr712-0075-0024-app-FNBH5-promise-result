@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-yzmo
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0024-tenant/tkrw-pr712-0075-0024-app/devfile-sample-yzmo@sha256:d526dc0c5390e3905f9e3bc2a005127bd728ec960e58c7370847303a9f715610
         name: my-nodejs
         ports:
         - containerPort: 3001
